@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    margin: 20px;
+}
+
+.enlaces{
+    color: black;
+}
+
+.titulo-principal{
+    font-size: 4em;
+    text-align: center;
+
+}
+
+.titulo-seccion{
+    font-size: 3em;
+}
+
+s
+.titulo-noticia{
+    font-size: 2em;
+}
+
+#derechos-reservados{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}

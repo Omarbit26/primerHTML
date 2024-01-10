@@ -1,0 +1,83 @@
+/* Reset CSS sin afectar la etiqueta "a" */
+
+/* Box-sizing border-box para todos los elementos */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove márgenes y rellenos predeterminados */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Establecer fuentes y estilos de texto base */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Eliminar la lista de puntos en las listas no ordenadas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Establecer márgenes en la parte inferior de los elementos de encabezado para evitar colisiones con elementos de bloque */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5em;
+}
+
+/* Establecer estilos básicos para imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Resetear estilos de formulario para una apariencia más consistente */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* Eliminar el relleno y el borde de los elementos del formulario en algunos navegadores */
+button,
+input {
+  overflow: visible;
+}
+
+/* Establecer la apariencia de cursor predeterminada en los enlaces, excluyendo la etiqueta "a" */
+body *:not(a),
+button {
+  cursor: pointer;
+}
+
+/* Otras personalizaciones específicas del proyecto pueden agregarse aquí */
+
+/* Fin del Reset CSS */

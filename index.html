@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="./reset.css">  -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Mi primer sitio web</title>
 </head>
 <body>
-    <header>
-        <h1>Este es el título principal de mi pagina web</h1>
-        <span>HOME</span>
-        <span>NOTICIAS</span>
-        <span>EL CLIMA</span>
-    </header>
+
+    <div>
+        <header>
+            <h1 class="titulo-principal" id="titulo-portada">Noticias Ahuac -  Chupaca</h1>
+            <span>HOME</span>
+            <span>NOTICIAS</span>
+            <span>EL CLIMA</span>
+        </header>
+    </div>
+    
 
     <main>
-        <section>
-            <h2>Este es un título de una seccion de noticias</h2>
+        <div class="titulares">
+            <h2 class="titulo-seccion">Titulares en ahuac de hoy 9 de enero </h2>
             <article>
-                <h3>Esta es la noticia N°1</h3>
+                <h3 class="titulo-noticia">Noticia N°1</h3>
                     <div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Quia, qui velit? Molestiae harum animi hic, nam natus labore 
                             libero, reprehenderit, eligendi aut distinctio quod temporibus 
                             aspernatur mollitia. Odio, at possimus!
                         </p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores 
+                        <p>Lorem ipsum dolor sit amet consecte  tur adipisicing elit. Maiores 
                             rerum odit, cum repellendus alias dolorum. Libero, placeat eligendi magnam consequatur eum officiis 
                             sit nulla vitae, numquam temporibus aperiam nobis? Aspernatur.
                         </p>
@@ -34,7 +40,7 @@
             <hr/>
 
             <article>
-                <h3>Este es la noticia N° 2</h3>
+                <h3 class"titulo-noticia" > Noticia N° 2</h3>
                 <p>Este es un listado de cosas importantes para esta noticia</p>
 
                 <ol>
@@ -49,7 +55,7 @@
             <hr/>
 
             <article>
-                <h3>Este es la noticia N° 3</h3>
+                <h3 class"titulo-noticia" >Noticia N° 3</h3>
                 <p>Este es un listado de cosas importantes para esta noticia</p>
 
                 <ol>
@@ -59,24 +65,25 @@
                 </ol>
             </article>
 
-        </section>
+        </div>
 
     </main>
 
     <footer>
-        <p>
-            Este es el footer de mi pagina. Ahora voy a poner unos enlaces. 
-        </p>
 
-        <span>Enlace 1</span>
-        <span>Enlace 2</span>
-        <span>Enlace 3</span>
+        <p> Este es el footer de mi pagina. Ahora voy a poner unos enlaces. </p>
 
-
-
+        <div>
+            <span > <a class="enlaces" href="./style.css">Enlace 1</a></span>
+            <span > <a class="enlaces" href="./style.css">Enlace 2</a></span>
+            <span > <a class="enlaces" href="./style.css">Enlace 3</a></span>
+        </div>
+        
+        <div id="derechos-reservados">
+            <p>Derechos reservados  </p>
+            <p>@TEAM SHACRAS WWW.CUSILLAKTA.COM </p>
+        </div>
 
     </footer>
-
-
 </body>
 </html>
